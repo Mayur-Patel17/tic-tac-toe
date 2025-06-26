@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Game tic tac toi</title>
+</head>
+
+<body class="justify-items-center bg-black text-white mt-10 ">
+    <h1 class="text-6xl font-bold">Tic Tac Toe</h1>
+    <div class="container justify-items-center">
+        <div id="msg-container"
+            class="absolute  shadow-lg end-105 top-55 p-8 shadow-indigo-500 rounded-lg bg-indigo-600 h-[25vmin] w-[80vmin] justify-items-center content-center">
+            <p id="msg" class="text-4xl font-bold text-shadow-lg text-shadow-red-800 text-white text-center">hi mayur is the winner of this game </p>
+        </div>
+        <div class="game h-[60vmin] w-[60vmin] flex flex-wrap mt-10 gap-2">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    <div class="flex gap-20 mt-7">
+        <button id="reset-btn">Reset</button>
+        <button id="new-btn">New Game</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

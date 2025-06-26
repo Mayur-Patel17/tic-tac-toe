@@ -1,0 +1,30 @@
+
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: beige;
+    font-size:8vmin;
+    cursor: pointer;
+    gap: 1vmin;
+    color: rgb(203, 33, 33);
+    font-weight: 600;
+}
+
+#reset-btn, #new-btn{
+  height: 8vmin;
+  width: 18vmin;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* .msg-container{
+  display: none;
+} */
